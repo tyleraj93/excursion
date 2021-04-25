@@ -1,15 +1,16 @@
-html {
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
+    text-align: center;
 }
 
-h1 {
+.header--main {
     font-weight: normal;
     font-size: 50px;
     color: white;
 }
 
-p a{
+.link--cta{
     color: aquamarine;
     font-size: 16px;
 }
@@ -23,4 +24,8 @@ h2 {
 p {
     font-size: 21px;
     color: gray;
+}
+
+footer p {
+    text-align: right;
 }
